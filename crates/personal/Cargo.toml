@@ -1,0 +1,12 @@
+[package]
+name = "personal"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+shared.workspace = true
+
+[dev-dependencies]
+me-store.workspace = true
+me-test-support.workspace = true

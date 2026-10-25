@@ -1,0 +1,9 @@
+[package]
+name = "me-test-support"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Test helpers for ME domain command programs"
+
+[dependencies]
+shared.workspace = true

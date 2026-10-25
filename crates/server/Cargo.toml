@@ -1,0 +1,29 @@
+[package]
+name = "me-server"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "HTTP server and data dashboard for the ME personal data workspace"
+
+[dependencies]
+me-store.workspace = true
+anyhow.workspace = true
+axum.workspace = true
+chrono.workspace = true
+clap.workspace = true
+goal.workspace = true
+health.workspace = true
+life.workspace = true
+personal.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+shared.workspace = true
+tokio.workspace = true
+tower-http.workspace = true
+tracing.workspace = true
+tracing-subscriber.workspace = true
+uuid.workspace = true
+
+[dev-dependencies]
+http-body-util.workspace = true
+tower.workspace = true

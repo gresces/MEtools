@@ -1,0 +1,10 @@
+target/
+
+# Local codebase index
+.codebase-memory/
+
+# Client/server secrets
+.me-client.json
+*.token
+.env
+*.password

@@ -1,0 +1,10 @@
+[package]
+name = "me-store"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Document store backends for the ME personal data service"
+
+[dependencies]
+rusqlite.workspace = true
+shared.workspace = true
